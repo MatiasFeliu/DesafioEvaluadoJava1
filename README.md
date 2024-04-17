@@ -1,7 +1,7 @@
-Desafío evaluado Java "Cual persona es mayor" utilizando metodo Date
+Desafío evaluado Java Cual persona es mayor utilizando metodo Date
 
-##Tamara López
-##Miguel Rondanelli
-##René Moreno
-##Matías Feliú 
+## Tamara López
+## Miguel Rondanelli
+## Moreno
+## Matías Feliú 
 
