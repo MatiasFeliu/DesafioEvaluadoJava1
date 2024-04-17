@@ -25,32 +25,42 @@ public class Main {
         System.out.println(edadPersona1 + " " + edadPersona2);
 
         //compara edades y determinacion de quien es mayor
+            // Metodo mas "artesanal de comparar dos edades"
 
-        if (edadPersona1.getYears() > edadPersona2.getYears()) {
-            System.out.println("Persona1 es Mayor");
-
-        } else if (edadPersona2.getYears() > edadPersona1.getYears()){
-            System.out.println("Persona2 es Mayor");
-
-        }else {
-            if (edadPersona1.getMonths() > edadPersona2.getMonths()){
+           /* if (edadPersona1.getYears() > edadPersona2.getYears()) {
                 System.out.println("Persona1 es Mayor");
 
-            } else if (edadPersona2.getMonths() > edadPersona1.getMonths()) {
+            } else if (edadPersona2.getYears() > edadPersona1.getYears()){
                 System.out.println("Persona2 es Mayor");
 
-            }else{
-                if (edadPersona1.getDays() > edadPersona2.getDays()){
+            }else {
+                if (edadPersona1.getMonths() > edadPersona2.getMonths()){
                     System.out.println("Persona1 es Mayor");
 
-                } else if (edadPersona2.getDays() > edadPersona1.getDays()) {
+                } else if (edadPersona2.getMonths() > edadPersona1.getMonths()) {
                     System.out.println("Persona2 es Mayor");
 
-                }else {
-                    System.out.println("Tienen la misma edad");
-                }
-            }
+                }else{
+                    if (edadPersona1.getDays() > edadPersona2.getDays()){
+                        System.out.println("Persona1 es Mayor");
 
-        }
+                    } else if (edadPersona2.getDays() > edadPersona1.getDays()) {
+                        System.out.println("Persona2 es Mayor");
+
+                    }else {
+                        System.out.println("Tienen la misma edad");
+                    }
+                }
+
+            }*/
+
+            //metodo sencillo utilizando metodo isBefore de la clase LocalDate
+            if (fechaPersona1.isBefore(fechaPersona2)) {
+                System.out.println("Persona 1 es Mayor");
+            } else if (fechaPersona2.isBefore(fechaPersona1)) {
+                System.out.println("Persona 2 es Mayor");
+            } else {
+                System.out.println("Tienen la misma edad");
+            }
     }
 }
