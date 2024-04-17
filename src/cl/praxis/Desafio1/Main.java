@@ -1,5 +1,4 @@
 package cl.praxis.Desafio1;
-import java.sql.SQLOutput;
 import java.util.Scanner;
 import java.time.format.DateTimeFormatter;
 import java.time.LocalDate;
@@ -32,6 +31,7 @@ public class Main {
 
         } else if (edadPersona2.getYears() > edadPersona1.getYears()){
             System.out.println("Persona2 es Mayor");
+
         }else {
             if (edadPersona1.getMonths() > edadPersona2.getMonths()){
                 System.out.println("Persona1 es Mayor");
@@ -39,14 +39,12 @@ public class Main {
             } else if (edadPersona2.getMonths() > edadPersona1.getMonths()) {
                 System.out.println("Persona2 es Mayor");
 
-
             }else{
                 if (edadPersona1.getDays() > edadPersona2.getDays()){
                     System.out.println("Persona1 es Mayor");
 
                 } else if (edadPersona2.getDays() > edadPersona1.getDays()) {
                     System.out.println("Persona2 es Mayor");
-
 
                 }else {
                     System.out.println("Tienen la misma edad");
