@@ -68,3 +68,5 @@
              import static java.lang.Math.*;
              import java.util.*
 ### Static: Se utiliza para declarar miembros de clase que pertenecen a la clase en si misma, en lugar de pertenecer a instancias individuales de la clase. Los miembros estaticos son compartidos por todas las instancias de clase y pueden ser accedidos directamente desde el nombre de la clase, sin necesidad de crear una instancia de la clase.
+
+### 
