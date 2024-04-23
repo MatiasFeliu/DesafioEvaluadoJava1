@@ -8,5 +8,7 @@
 ## <ins>Desafios</ins>
 
 ### Desafio evaluado 1
-[Link:desafio evaluado 1](/src/cl/praxis/Desafio1/Main.java)
+[Link: desafio evaluado 1](/src/cl/praxis/Desafio1/Main.java)
+
+### Desafio evaluado 2
 
