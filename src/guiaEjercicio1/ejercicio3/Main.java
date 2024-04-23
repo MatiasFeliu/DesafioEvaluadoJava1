@@ -9,17 +9,17 @@ public class Main {
         System.out.println("Ingresar numero");
         num = sc.nextInt();
 
-        if(num<=0){
-            System.out.println("el numero ingresado no es valido");
-        }else{
+        if(num>0){
             for(int i=1; i<=num; i++){
-                System.out.println(i);
                 if(i%2==0){
-                   par=i+par;
-                   //par acumulador
+                    System.out.println(i);
+                    par=i+par;
+                    //par acumulador
                 }
             }
             System.out.println("el resultado es: " + par);
+        }else{
+            System.out.println("el numero ingresado no es valido");
         }
     }
 }
