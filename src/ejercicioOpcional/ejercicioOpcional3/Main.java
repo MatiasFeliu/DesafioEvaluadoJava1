@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
+/*
 
         //Cambio de while a do_while
         int i = 0;
@@ -85,6 +86,8 @@ public class Main {
             }
         }
         System.out.println("El resultado es: "+resultado2);
+
+*/
 
 /////////////////////////////////////////////////////////////////////////////////////////////
         //Secuencia Fibonacci
