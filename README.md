@@ -1,7 +1,16 @@
-Desafío evaluado Java Cual persona es mayor utilizando metodo Date
+## Desafíos evaluados en Java
 
-## Tamara López
-## Miguel Rondanelli
-## René Moreno
-## Matías Feliú 
+### Tamara López
+### Miguel Rondanelli
+### René Moreno
+### Matías Feliú
+
+## <ins>Desafios</ins>
+
+### Desafio evaluado 1
+
+[Link: desafio evaluado 1](/src/cl/praxis/Desafio1/Main.java)
+### Desafio evaluado 2
+[Link:desafio evaluado 1](/src/cl/praxis/Desafio1/Main.java)
+
 
