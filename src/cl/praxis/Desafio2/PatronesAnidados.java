@@ -29,8 +29,6 @@ public class PatronesAnidados {
             }
         }
 
-
-
         System.out.println();
         //patron3
         for(int i=0; i<=numero; i++ ){
