@@ -11,6 +11,6 @@
 
 [Link: desafio evaluado 1](/src/cl/praxis/Desafio1/Main.java)
 ### Desafio evaluado 2
-[Link:desafio evaluado 1](/src/cl/praxis/Desafio1/Main.java)
+[Link:desafio evaluado 1](/src/cl/praxis/Desafio2/PatronesAnidados.java)
 
 
