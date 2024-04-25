@@ -7,10 +7,9 @@
 
 ## <ins>Desafios</ins>
 
-### Desafio evaluado 1
-
+### Desafio evaluado 1 manejo de fechas
 [Link: desafio evaluado 1](/src/cl/praxis/Desafio1/Main.java)
-### Desafio evaluado 2
-[Link:desafio evaluado 1](/src/cl/praxis/Desafio1/Main.java)
+### Desafio evaluado 2 patrones anidados
+[Link:desafio evaluado 2](/src/cl/praxis/Desafio2/PatronesAnidados.java)
 
 
