@@ -9,7 +9,7 @@ public class PatronesAnidados {
         int numero = sc.nextInt();
 
 
-    ////////Parte 1//////
+        ////////Parte 1//////
         //patron 1
         for(int i=0; i<=numero; i++ ){
             if(i%2==0){
@@ -40,25 +40,25 @@ public class PatronesAnidados {
         }
 
         System.out.println();
-    ////////Parte 2//////
+        ////////Parte 2//////
         //patron 1
-    for(int i=0; i<=numero;i++){
-        for(int j=0; j<=numero;j++)  {
-            if(i == 0 || i == numero ){
-                System.out.print("*");
-            }else if(j==0 || j == numero){
-                System.out.print("*");
-            }else{
-                System.out.print(" ");
+        for(int i=1; i<=numero;i++){
+            for(int j=1; j<=numero;j++)  {
+                if(i == 1 || i == numero ){
+                    System.out.print("*");
+                }else if(j==1 || j == numero){
+                    System.out.print("*");
+                }else{
+                    System.out.print(" ");
+                }
             }
+            System.out.println();
         }
-        System.out.println();
-    }
 
         //patron 2
         for(int i=0; i<=numero;i++) {
-            for (int j = 0; j <= numero; j++) {
-                if(i == 0 || i == numero ){
+            for (int j = 1; j <= numero; j++) {
+                if(i == 0 || i == numero -1){
                     System.out.print("*");
                 }else if(i + j == numero){
                     System.out.print("*");
@@ -70,9 +70,9 @@ public class PatronesAnidados {
         }
 
         //patron 3
-        for(int i=0; i<=numero;i++) {
-            for (int j = 0; j <= numero; j++) {
-                if(i == j || i+j == numero){
+        for(int i=1; i<=numero;i++) {
+            for (int j = 1; j <= numero; j++) {
+                if(i == j || i+j == numero +1){
                     System.out.print("x");
                 }else{
                     System.out.print(" ");
@@ -84,14 +84,13 @@ public class PatronesAnidados {
         //patron 4
         for(int i=1; i<=numero;i++) {
             for (int j = 1; j <= numero; j++) {
-             if((i!=numero && j==numero) || (i!=1 && j==1)){
-                 System.out.print(" ");
-             }else{
-                 System.out.print("*");
-             }
+                if((i!=numero && j==numero) || (i!=1 && j==1)){
+                    System.out.print(" ");
+                }else{
+                    System.out.print("*");
+                }
             }
             System.out.println();
         }
     }
 }
-
