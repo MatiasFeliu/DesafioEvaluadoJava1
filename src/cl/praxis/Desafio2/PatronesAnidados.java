@@ -41,11 +41,11 @@ public class PatronesAnidados {
         System.out.println();
     ////////Parte 2//////
         //patron 1
-    for(int i=0; i<=numero;i++){
-        for(int j=0; j<=numero;j++)  {
-            if(i == 0 || i == numero ){
+         for(int i=1; i<=numero;i++){
+        for(int j=1; j<=numero;j++)  {
+            if(i == 1 || i == numero ){
                 System.out.print("*");
-            }else if(j==0 || j == numero){
+            }else if(j==1 || j == numero){
                 System.out.print("*");
             }else{
                 System.out.print(" ");
@@ -56,8 +56,8 @@ public class PatronesAnidados {
 
         //patron 2
         for(int i=0; i<=numero;i++) {
-            for (int j = 0; j <= numero; j++) {
-                if(i == 0 || i == numero ){
+            for (int j = 1; j <= numero; j++) {
+                if(i == 0 || i == numero -1){
                     System.out.print("*");
                 }else if(i + j == numero){
                     System.out.print("*");
