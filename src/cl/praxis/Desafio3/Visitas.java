@@ -1,5 +1,4 @@
-package desafioEvaluadoArreglos;
-
+package cl.praxis.Desafio3;
 public class Visitas {
     public static void main(String[] args) {
         // Verificar si se proporcionan argumentos de línea de comandos
