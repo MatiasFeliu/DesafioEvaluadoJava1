@@ -1,4 +1,4 @@
-package desafioEvaluadoArreglos;
+package cl.praxis.Desafio3;
 
 public class SmartWatch {
     public static void main(String[] args) {
@@ -52,3 +52,4 @@ public class SmartWatch {
         return (double) suma / pasos.length;
     }
 }
+
