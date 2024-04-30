@@ -2,12 +2,10 @@ package desafioEvaluadoArreglos;
 
 public class SmartWatch {
     public static void main(String[] args) {
-        // Verificar si se proporcionaron argumentos de línea de comandos
         if (args.length == 0) {
             System.out.println("Por favor, proporcione al menos un argumento con los pasos diarios.");
             return;
         }
-
         // Convertir los argumentos de String a enteros y filtrar los valores
         int[] pasos = clearSteps(args);
 
@@ -18,7 +16,6 @@ public class SmartWatch {
         System.out.println("El promedio de pasos diarios es: " + promedioPasos);
     }
 
-    // Método para filtrar los valores de pasos y calcular el promedio
     public static int[] clearSteps(String[] pasosString) {
         int[] pasos = new int[pasosString.length];
         int contador = 0;
@@ -27,7 +24,8 @@ public class SmartWatch {
             try {
                 int valor = Integer.parseInt(paso);
                 if (valor >= 200 && valor <= 100000) {
-                    pasos[contador++] = valor;
+                    pasos[contador] = valor;
+                    contador++;
                 }
             } catch (NumberFormatException e) {
                 // Ignorar valores no numéricos
