@@ -8,7 +8,6 @@ public class PatronesAnidados {
         System.out.println("Ingrese numero");
         int numero = sc.nextInt();
 
-
     ////////Parte 1//////
         //patron 1
         for(int i=0; i<=numero; i++ ){
@@ -70,9 +69,9 @@ public class PatronesAnidados {
         }
 
         //patron 3
-        for(int i=1; i<=numero;i++) {
+        for(int i = 1; i<=numero;i++) {
             for (int j = 1; j <= numero; j++) {
-                if(i == j || i+j == numero +1){
+                if(i == j || i+j == numero + 1){
                     System.out.print("x");
                 }else{
                     System.out.print(" ");
