@@ -17,3 +17,5 @@
 [Link:desafio evaluado 3 ejercicio2](/src/cl/praxis/Desafio3/SmartWatch.java)
 
 [Link:desafio evaluado 3 ejercicio3](/src/cl/praxis/Desafio3/MultiplosDe3.java)
+
+[Link:desafio evaluado 3 ejercicio3](/src/cl/praxis/Desafio3/Promedios.java)
