@@ -18,4 +18,3 @@
 
 [Link:desafio evaluado 3 ejercicio3](/src/cl/praxis/Desafio3/MultiplosDe3.java)
 
-[Link:desafio evaluado 3 ejercicio4](/src/cl/praxis/Desafio3/Promedios.java)
