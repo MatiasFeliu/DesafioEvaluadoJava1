@@ -16,11 +16,25 @@ public class Promedios {
                 System.out.println("Ha sucedido un error" + e);
             }
         }
-        int numeros = promedio(promedios);
-
+        suma(promedios);
     }
 
-    public static int promedio(int[] promedios){
-        return 0;
+    public static void suma(int[] promedios){
+        int suma = 0;
+        int count = 0;
+        for(int elemento : promedios){
+
+            if (elemento%3==0){
+                suma=suma + elemento;
+              count++;
+            }
+         }
+        System.out.println("La suma es "+ suma);
+        promedio(suma,count);
+    }
+
+    public static void promedio(int suma, int count){
+        int resultado = suma/count;
+        System.out.println("El promedio es " + resultado);
     }
 }
