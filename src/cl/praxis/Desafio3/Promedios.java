@@ -6,10 +6,10 @@ public class Promedios {
             System.out.println("Ingrese un argumento valido");
             return;
         }
+
         int[] promedios = new int[args.length];
 
         for(int i=0; i< args.length; i++ ){
-
             try {
                 promedios[i] = Integer.parseInt(args[i]);
             }catch (NumberFormatException e){
@@ -22,14 +22,17 @@ public class Promedios {
     public static void suma(int[] promedios){
         int suma = 0;
         int count = 0;
+
         for(int elemento : promedios){
 
             if (elemento%3==0){
                 suma=suma + elemento;
-              count++;
+                count++;
             }
          }
+
         System.out.println("La suma es "+ suma);
+
         promedio(suma,count);
     }
 
