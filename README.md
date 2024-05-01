@@ -12,9 +12,10 @@
 [Link:desafio evaluado 2](/src/cl/praxis/Desafio2/PatronesAnidados.java)
 ### Desafio evaluado 3 Manejo de Arrays
 
-[Link:desafio evaluado 3 ejercicio1](/src/cl/praxis/Desafio3/Visitas.java)
+[Link:desafio evaluado 3 ejercicio 1](/src/cl/praxis/Desafio3/Visitas.java)
 
-[Link:desafio evaluado 3 ejercicio2](/src/cl/praxis/Desafio3/SmartWatch.java)
+[Link:desafio evaluado 3 ejercicio 2](/src/cl/praxis/Desafio3/SmartWatch.java)
 
-[Link:desafio evaluado 3 ejercicio3](/src/cl/praxis/Desafio3/MultiplosDe3.java)
+[Link:desafio evaluado 3 ejercicio 3](/src/cl/praxis/Desafio3/MultiplosDe3.java)
 
+[Link:desafio evaluado 3 ejercicio 4](/src/cl/praxis/Desafio3/Promedios.java)
