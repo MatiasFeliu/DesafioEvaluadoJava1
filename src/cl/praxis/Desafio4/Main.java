@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Main {
     public static void main (String [] args){
         // Directorio de trabajo
-        File directorio = new File("src/Desafio4Directorio");
+        File directorio = new File("src/cl/praxis/Desafio4/Directorio");
         // Validador de error.
         try
         {
@@ -94,7 +94,7 @@ public class Main {
         if(!nombreFichero.endsWith(".txt")){
             nombreFichero = nombreFichero + ".txt";
         }
-        File archivo = new File("src/Desafio4Directorio/" + nombreFichero);
+        File archivo = new File("src/cl/praxis/Desafio4/Directorio/" + nombreFichero);
         System.out.println("----------------------------------");
         System.out.println("Proceso buscar palabra:");
 
