@@ -24,3 +24,7 @@
 
 [Link:desafio evaluado 4 ejercicio 1](/src/cl/praxis/Desafio4/Main.java)
 
+### Desafio evaluado 5 Diagramas de clases (UML)
+
+[Link:desafio evaluado 5 ejercicio 1](/src/cl/praxis/Desafio5/)
+
