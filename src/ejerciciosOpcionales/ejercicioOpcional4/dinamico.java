@@ -1,4 +1,4 @@
-package ejercicioOpcional4;
+package ejerciciosOpcionales.ejercicioOpcional4;
 import java.util.Scanner;
 import java.util.ArrayList;
 
