@@ -6,9 +6,9 @@
 ### Matías Feliú
 
 ## <ins>Desafios Opcionales</ins>
-### Desafio evaluado 5 Diagramas de clases (UML)
+### Desafio opcional dia 21 Diagramas de clases (UML)
 
-[Link:desafio evaluado 5 ejercicio 1](/src/ejerciciosOpcionales/ejercicioD21/DesafioEvaluadoStarUML.drawio.png)
+[Link:desafio Opcional dia 21](/src/ejerciciosOpcionales/ejercicioD21/DesafioEvaluadoStarUML.drawio.png)
 
 ## <ins>Desafios Evaluados</ins>
 ### Desafio evaluado 1 manejo de fechas
