@@ -1,4 +1,4 @@
-## Desafíos evaluados en Java
+## <ins>Desafíos en Java</ins>
 
 ### Tamara López
 ### Miguel Rondanelli
@@ -7,8 +7,10 @@
 
 ## <ins>Desafios Opcionales</ins>
 ### Desafio opcional dia 21 Diagramas de clases (UML)
-
 [Link:desafio Opcional dia 21](/src/ejerciciosOpcionales/ejercicioD21/DesafioEvaluadoStarUML.drawio.png)
+
+### Desafio opcional dia 23 Automotora
+[Link:desafio Opcional dia 23](/src/ejerciciosOpcionales/ejercicioD23/Main.java)
 
 ## <ins>Desafios Evaluados</ins>
 ### Desafio evaluado 1 manejo de fechas
