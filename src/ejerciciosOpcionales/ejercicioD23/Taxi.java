@@ -20,6 +20,17 @@ public class Taxi extends Vehiculo {
         this.valorPasaje = valorPasaje;
     }
 
+    public int pagarPasaje(int monto){
+
+        if(monto<this.valorPasaje){
+            System.out.println("oe paga lo que debes");
+        }else if(monto>this.valorPasaje){
+            monto = monto - this.valorPasaje;
+        }
+
+        return monto;
+    }
+
     @Override
     public String toString() {
         return "Taxi{" +
