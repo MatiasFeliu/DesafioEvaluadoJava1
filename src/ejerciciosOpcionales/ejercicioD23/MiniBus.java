@@ -16,6 +16,14 @@ public class MiniBus extends Bus{
         this.tiempoViaje = tiempoViaje;
     }
 
+    public void imprimeBus(){
+        System.out.println("color: "+this.getColor());
+        System.out.println("patente: "+this.getPatente());
+        System.out.println("Cantidad de asientos: "+this.getCantidadDeAsientos());
+        System.out.println("Asientos disponibles: "+this.getAsientosDisponibles());
+        System.out.println("Tiempo de viaje: "+this.getTiempoViaje());
+    }
+
     @Override
     public String toString() {
         return "MiniBus{" +
