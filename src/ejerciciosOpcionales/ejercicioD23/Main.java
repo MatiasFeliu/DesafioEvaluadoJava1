@@ -1,10 +1,13 @@
 package ejerciciosOpcionales.ejercicioD23;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main (String[] args){
+
         Scanner sc = new Scanner(System.in);
         //Creacion de minibus
         MiniBus minibus1 = new MiniBus("blanco","pu2040",12,8,"60 minutos");
@@ -19,5 +22,10 @@ public class Main {
         int monto = sc.nextInt();
         //llamado a metodo pagar pasaje de objeto Taxi
         System.out.println("Tu Vuelto es de: "+ taxi1.pagarPasaje(monto));
+
+        // crear lista cliente
+        List<Cliente> clientes = new ArrayList<Cliente>();
+        List<Vehiculo> vehiculos = new ArrayList<Vehiculo>();
+
     }
 }
