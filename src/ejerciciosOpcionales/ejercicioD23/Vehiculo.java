@@ -1,5 +1,5 @@
 package ejerciciosOpcionales.ejercicioD23;
-
+// 
 public class Vehiculo {
     private String color;
     private String patente;
