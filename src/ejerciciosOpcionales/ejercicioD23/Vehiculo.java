@@ -1,9 +1,10 @@
 package ejerciciosOpcionales.ejercicioD23;
-// 
+// Entregamos parametros a la clase
 public class Vehiculo {
     private String color;
     private String patente;
 
+    //constructor vacío (permite modificar la clase sin constructor en la main)
     public Vehiculo(){
 
     }
