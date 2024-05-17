@@ -24,6 +24,7 @@ public class Main {
         //llamado a metodo pagar pasaje de objeto Taxi
         System.out.println("Tu Vuelto es de: "+ taxi1.pagarPasaje(monto));
 
+        Vendedor vendedor = new Vendedor("21.367.184-3","Julieta","Las Camelias 384, San Bernardo");
 
         //Crear lista cliente
         List<Cliente> clientes = new ArrayList<Cliente>();
@@ -43,7 +44,10 @@ public class Main {
         System.out.println(clientes);
 
         //Creacion del objeto tienda
-        Tienda tienda = new Tienda(clientes,vehiculos,44);
+        Tienda tienda = new Tienda(clientes,vehiculos,vendedor,44);
+
+        //Creacion del objeto stock
+        tienda.existeStock();
 
     }
 

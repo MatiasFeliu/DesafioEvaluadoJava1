@@ -56,6 +56,18 @@ public class Tienda {
 
     // creando metodo existeStock
 
-    
+    public String existeStock(){
+        return "stock"+stock;
+    }
 
+
+    @Override
+    public String toString() {
+        return "Tienda{" +
+                "clientes=" + clientes +
+                ", vehiculos=" + vehiculos +
+                ", vendedor=" + vendedor +
+                ", stock=" + stock +
+                '}';
+    }
 }
