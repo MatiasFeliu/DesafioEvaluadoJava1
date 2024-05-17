@@ -54,7 +54,9 @@ public class Tienda {
 
     // creando metodo existeStock
 
-    public String existeStock()
+    public String existeStock(){
+        return "stock"+stock;
+    }
     @Override
     public String toString() {
         return "Tienda{" +
