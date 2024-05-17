@@ -12,7 +12,6 @@ public class Taxi extends Vehiculo {
         this.valorPasaje = valorPasaje;
     }
 
-
     public int getValorPasaje(){
         return valorPasaje;
     }
@@ -35,6 +34,6 @@ public class Taxi extends Vehiculo {
     public String toString() {
         return "Taxi{" +
                 "valorPasaje=" + valorPasaje +
-                '}';
+                "} " + super.toString();
     }
 }
