@@ -1,5 +1,6 @@
 package ejerciciosOpcionales.ejercicioD23;
 
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -23,6 +24,7 @@ public class Main {
         //llamado a metodo pagar pasaje de objeto Taxi
         System.out.println("Tu Vuelto es de: "+ taxi1.pagarPasaje(monto));
 
+
         //Crear lista cliente
         List<Cliente> clientes = new ArrayList<Cliente>();
         List<Vehiculo> vehiculos = new ArrayList<Vehiculo>();
@@ -35,5 +37,14 @@ public class Main {
         vehiculos.add(new MiniBus("rojo","xx8563",10,8,"60 minutos"));
         System.out.println(vehiculos);
 
+        clientes.add(new Cliente("18.239.543-3","Florencio",29));
+        clientes.add(new Cliente("20.734.347-k","Desertor",24));
+        clientes.add(new Cliente("6.936.732-3","Mafalda",82));
+        System.out.println(clientes);
+
+        //Creacion del objeto tienda
+        Tienda tienda = new Tienda(clientes,vehiculos,44);
+
     }
+
 }

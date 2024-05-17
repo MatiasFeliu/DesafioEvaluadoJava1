@@ -14,7 +14,9 @@ public class Tienda {
 
     }
     public Tienda(List<Cliente> clientes,List<Vehiculo> vehiculos,Vendedor vendedor,int stock){
-
+        this.clientes = clientes;
+        this.vehiculos = vehiculos;
+        this.stock = stock;
     }
 // getters
     public List<Cliente> getClientes() {
@@ -54,17 +56,6 @@ public class Tienda {
 
     // creando metodo existeStock
 
-    public String existeStock(){
-        return "stock"+stock;
-    }
-    @Override
-    public String toString() {
-        return "Tienda{" +
-                "clientes=" + clientes +
-                ", vehiculos=" + vehiculos +
-                ", vendedor=" + vendedor +
-                ", stock=" + stock +
-                '}';
-    }
+    
 
 }
