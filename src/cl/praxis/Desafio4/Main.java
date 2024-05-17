@@ -1,10 +1,12 @@
 package cl.praxis.Desafio4;
-import java.io.File;
+import java.io.*;
+/*import java.io.File;
 import java.io.FileWriter;
 import java.io.FileReader;
 import java.io.BufferedReader;
-import java.io.IOException;
+import java.io.IOException;*/
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -22,7 +24,7 @@ public class Main {
                 directorio.mkdir();
             }
         }catch(Exception e){
-            System.out.println("Error al crear el directorio");
+            System.out.println("Error al crear el directorio"+e.getMessage());
         }
 
         Scanner sc = new Scanner(System.in);
@@ -52,7 +54,7 @@ public class Main {
             System.out.println("El fichero ingresado no existe");
             try {
                 // Creamos el archivo si no existe
-                if (archivo.createNewFile()) {
+                if (archivo.createNewFile()) { //
                     System.out.println("Archivo creado: " + fichero);
                 } else {
                     System.out.println("No se pudo crear el archivo");
@@ -63,16 +65,16 @@ public class Main {
         }
         // Creamos el ArrayList con los datos a escribir en el archivo
         ArrayList<String> lista = new ArrayList<>();
-            lista.add("Perro");
-            lista.add("Gato");
-            lista.add("Juan");
-            lista.add("Daniel");
-            lista.add("Juan");
-            lista.add("Gato");
-            lista.add("Perro");
-            lista.add("Camila");
-            lista.add("Daniel");
-            lista.add("Camila");
+        lista.add("Perro");
+        lista.add("Gato");
+        lista.add("Juan");
+        lista.add("Daniel");
+        lista.add("Juan");
+        lista.add("Gato");
+        lista.add("Perro");
+        lista.add("Camila");
+        lista.add("Daniel");
+        lista.add("Camila");
 
         System.out.println("Lista" + lista);
 
@@ -82,10 +84,10 @@ public class Main {
             for (String texto : lista) {
                 escribirArchivo.write(texto + "\n");
             }
-            System.out.println("Archivo creado: " + fichero);
+            System.out.println("Archivo completado: " + fichero);
             escribirArchivo.close();
         } catch (IOException e) {
-            System.out.println("Error al escribir en el archivo");
+            System.out.println("Error al escribir en el archivo" + e.getMessage());
         }
     }
 
@@ -99,7 +101,7 @@ public class Main {
         System.out.println("Proceso buscar palabra:");
 
         if(archivo.exists()){
-           // System.out.println("El archivo existe");
+            // System.out.println("El archivo existe");
             try{
                 FileReader leerArchivo = new FileReader(archivo);
                 BufferedReader bArchivo = new BufferedReader(leerArchivo);

@@ -1,11 +1,18 @@
-## Desafíos evaluados en Java
+## <ins>Desafíos en Java</ins>
 
 ### Tamara López
 ### Miguel Rondanelli
 ### René Moreno
 ### Matías Feliú
 
-## <ins>Desafios</ins>
+## <ins>Desafios Opcionales</ins>
+### Desafio opcional dia 21 Diagramas de clases (UML)
+[Link:desafio Opcional dia 21](/src/ejerciciosOpcionales/ejercicioD21/DesafioEvaluadoStarUML.drawio.png)
+
+### Desafio opcional dia 23 Automotora
+[Link:desafio Opcional dia 23](/src/ejerciciosOpcionales/ejercicioD23/Main.java)
+
+## <ins>Desafios Evaluados</ins>
 ### Desafio evaluado 1 manejo de fechas
 [Link: desafio evaluado 1](/src/cl/praxis/Desafio1/Main.java)
 ### Desafio evaluado 2 patrones anidados
@@ -23,3 +30,8 @@
 ### Desafio evaluado 4 Archivos
 
 [Link:desafio evaluado 4 ejercicio 1](/src/cl/praxis/Desafio4/Main.java)
+
+### Desafio evaluado 5 Diagramas de clases (UML)
+
+[Link:desafio evaluado 5 ejercicio 1](/src/cl/praxis/Desafio5/DesafioEvaluadoStarUML.drawio.png)
+
