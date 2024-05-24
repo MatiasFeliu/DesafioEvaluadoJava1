@@ -61,7 +61,6 @@ public class Main {
         Vehiculo vehiculo1 = vehiculos.get(2);
         Cliente cliente1 = clientes.get(2);
 
-
         //Metodo guardar venta
         venta.guardarVenta(cliente1,vehiculo1);
 
