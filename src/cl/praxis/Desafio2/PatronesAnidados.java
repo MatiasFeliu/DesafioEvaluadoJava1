@@ -79,7 +79,6 @@ public class PatronesAnidados {
             }
             System.out.println();
         }
-
         //patron 4
         for(int i=1; i<=numero;i++) {
             for (int j = 1; j <= numero; j++) {
@@ -91,5 +90,6 @@ public class PatronesAnidados {
             }
             System.out.println();
         }
+
     }
 }
