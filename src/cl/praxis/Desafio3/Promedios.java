@@ -29,7 +29,7 @@ public class Promedios {
                 suma=suma + elemento;
                 count++;
             }
-         }
+        }
 
         System.out.println("La suma es "+ suma);
 
