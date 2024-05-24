@@ -52,7 +52,7 @@ public class Main {
 
         //Metodo fecha
         LocalDate toDay = LocalDate.now();
-        String toDayFormat = sc.toString();
+        String toDayFormat = toDay.toString();
 
         //Lógica de venta
         LibroVenta venta = new LibroVenta("Venta vehiculo 1", toDayFormat);

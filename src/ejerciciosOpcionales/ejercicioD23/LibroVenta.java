@@ -30,7 +30,7 @@ public class LibroVenta {
         this.fechaVenta = fechaVenta;
     }
     public void guardarVenta(Cliente cliente, Vehiculo vehiculo){
-        System.out.println(cliente.getEdad() + vehiculo.getPatente() + this.fechaVenta + this.nombreVenta);
+        System.out.println(cliente.getEdad() + " " + vehiculo.getPatente()+ " " + this.fechaVenta + " " + this.nombreVenta);
 
     }
 
