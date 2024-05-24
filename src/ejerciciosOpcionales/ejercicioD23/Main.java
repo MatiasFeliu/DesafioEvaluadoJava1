@@ -5,6 +5,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import java.io.*;
 
 public class Main {
 
@@ -62,8 +63,9 @@ public class Main {
         Cliente cliente1 = clientes.get(2);
 
 
-        //Metodo guardar venta
+        //Método guardar venta
         venta.guardarVenta(cliente1,vehiculo1);
+
 
     }
 }
