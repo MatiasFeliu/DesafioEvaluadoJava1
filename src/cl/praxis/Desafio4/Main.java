@@ -65,16 +65,16 @@ public class Main {
         }
         // Creamos el ArrayList con los datos a escribir en el archivo
         ArrayList<String> lista = new ArrayList<>();
-            lista.add("Perro");
-            lista.add("Gato");
-            lista.add("Juan");
-            lista.add("Daniel");
-            lista.add("Juan");
-            lista.add("Gato");
-            lista.add("Perro");
-            lista.add("Camila");
-            lista.add("Daniel");
-            lista.add("Camila");
+        lista.add("Perro");
+        lista.add("Gato");
+        lista.add("Juan");
+        lista.add("Daniel");
+        lista.add("Juan");
+        lista.add("Gato");
+        lista.add("Perro");
+        lista.add("Camila");
+        lista.add("Daniel");
+        lista.add("Camila");
 
         System.out.println("Lista" + lista);
 
@@ -101,7 +101,7 @@ public class Main {
         System.out.println("Proceso buscar palabra:");
 
         if(archivo.exists()){
-           // System.out.println("El archivo existe");
+            // System.out.println("El archivo existe");
             try{
                 FileReader leerArchivo = new FileReader(archivo);
                 BufferedReader bArchivo = new BufferedReader(leerArchivo);
