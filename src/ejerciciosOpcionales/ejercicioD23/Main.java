@@ -5,6 +5,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import java.io.*;
 
 public class Main {
 
@@ -52,7 +53,7 @@ public class Main {
 
         //Metodo fecha
         LocalDate toDay = LocalDate.now();
-        String toDayFormat = sc.toString();
+        String toDayFormat = toDay.toString();
 
         //Lógica de venta
         LibroVenta venta = new LibroVenta("Venta vehiculo 1", toDayFormat);
@@ -61,8 +62,9 @@ public class Main {
         Vehiculo vehiculo1 = vehiculos.get(2);
         Cliente cliente1 = clientes.get(2);
 
-        //Metodo guardar venta
+        //Método guardar venta
         venta.guardarVenta(cliente1,vehiculo1);
+
 
     }
 }
