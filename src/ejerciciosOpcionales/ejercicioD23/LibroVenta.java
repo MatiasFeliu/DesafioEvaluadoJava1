@@ -69,9 +69,5 @@ public class LibroVenta {
                 "nombreVenta='" + nombreVenta + '\'' +
                 ", fechaVenta='" + fechaVenta + '\'' +
                 '}';
-
-
     }
-
-
 }
