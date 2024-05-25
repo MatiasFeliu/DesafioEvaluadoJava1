@@ -8,13 +8,11 @@ public class LibroVenta {
     private String fechaVenta;
 
     public LibroVenta() {
-
     }
 
     public LibroVenta(String nombreVenta, String fechaVenta) {
         this.nombreVenta = nombreVenta;
         this.fechaVenta = fechaVenta;
-
     }
 
     public String getNombreVenta() {
@@ -40,7 +38,11 @@ public class LibroVenta {
         //Crear directorio
         File directorio = new File("src/ejerciciosOpcionales/ejercicioD23/" + "ficheros");
         if (!directorio.exists()) {
-            directorio.mkdirs();
+            if(directorio.mkdirs()){
+                System.out.println("directorio creado correctamente");
+            }else{
+                System.out.println("ocurrio un error al crear el directorio");
+            }
         }
         // Definir la cadena que se va a escribir en el archivo
         String ventaInfo = "-------------------------\n" + "Patente: " + vehiculo.getPatente()+ "\n" + "Edad Cliente: "  + cliente.getEdad() + "\n" + "Fecha Venta: " + toDayFormat + "\n" + "Nombre Cliente: " + cliente.getNombre();

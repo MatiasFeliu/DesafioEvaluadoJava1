@@ -36,8 +36,6 @@ public class Tienda {
     }
 
     // setters
-
-
     public void setClientes(List<Cliente> clientes) {
         this.clientes = clientes;
     }
@@ -55,11 +53,9 @@ public class Tienda {
     }
 
     // creando metodo existeStock
-
     public String existeStock(){
         return "stock"+stock;
     }
-
 
     @Override
     public String toString() {

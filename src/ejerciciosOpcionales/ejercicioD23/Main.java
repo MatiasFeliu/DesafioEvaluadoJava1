@@ -48,7 +48,7 @@ public class Main {
         //Creación del objeto tienda
         Tienda tienda = new Tienda(clientes, vehiculos, vendedor, 44);
 
-        //Creación del objeto stock
+        //llamado del metodo existeStock()
         tienda.existeStock();
 
         //Metodo fecha
@@ -64,7 +64,6 @@ public class Main {
 
         //Método guardar venta
         venta.guardarVenta(cliente1,vehiculo1);
-
 
     }
 }

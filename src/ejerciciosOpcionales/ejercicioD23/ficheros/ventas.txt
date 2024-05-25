@@ -8,3 +8,8 @@ Patente: xx7852
 Edad Cliente: 82
 Fecha Venta: 2024-05-24
 Nombre Cliente: Mafalda
+-------------------------
+Patente: xx7852
+Edad Cliente: 82
+Fecha Venta: 2024-05-24
+Nombre Cliente: Mafalda
