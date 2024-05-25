@@ -35,3 +35,6 @@
 
 [Link:desafio evaluado 5 ejercicio 1](/src/cl/praxis/Desafio5/DesafioEvaluadoStarUML.drawio.png)
 
+### Desafio evaluado 6 manejo de excepciones
+
+[Link:desafio evaluado 5 ejercicio 1](/src/ejerciciosOpcionales/ejercicioD23)
