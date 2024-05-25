@@ -37,4 +37,4 @@
 
 ### Desafio evaluado 6 manejo de excepciones
 
-[Link:desafio evaluado 5 ejercicio 1](/src/ejerciciosOpcionales/ejercicioD23)
+[Link:desafio evaluado 6 ejercicio 1](/src/ejerciciosOpcionales/ejercicioD23)
