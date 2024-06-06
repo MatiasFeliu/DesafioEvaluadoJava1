@@ -1,0 +1,1 @@
+Producto{articulo='c', precio='c', descripcion='c', codigo='c', talla='c', marca='c'}
