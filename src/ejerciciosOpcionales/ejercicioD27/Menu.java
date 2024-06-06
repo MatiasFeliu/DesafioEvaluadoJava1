@@ -8,6 +8,7 @@ public class Menu {
     public void mostrarMenu(){
         int option;
         do{
+            Utilidad.limpiarPantalla();
             System.out.println("1 Listar Producto");
             System.out.println("2 Agregar Producto");
             System.out.println("3 Exportar Datos");
@@ -18,10 +19,13 @@ public class Menu {
 
             switch (option){
                 case 1: productoServicio.listarProductos();
+                        Utilidad.pausa(2);
                 break;
                 case 2:addProducto();
+                    Utilidad.pausa(2);
                 break;
                 case 3:exportar.exportar(productoServicio.getListaProductos());
+                    Utilidad.pausa(2);
                 break;
                 case 4:
                     System.out.println("Saliendo del programa....");
@@ -50,5 +54,7 @@ public class Menu {
 
         Producto producto = new Producto(articulo,precio,descripcion,codigo,talla,marca);
         productoServicio.agregarProducto(producto);
+
+
     }
 }
