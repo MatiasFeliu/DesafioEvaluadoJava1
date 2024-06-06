@@ -12,6 +12,9 @@
 ### Desafio opcional dia 23 Automotora
 [Link:desafio Opcional dia 23](/src/ejerciciosOpcionales/ejercicioD23/Main.java)
 
+### Desafio opcional dia 27 Automotora
+[Link:desafio Opcional dia 27](/src/ejerciciosOpcionales/ejercicioD27/Menu.java)
+
 ## <ins>Desafios Evaluados</ins>
 ### Desafio evaluado 1 manejo de fechas
 [Link: desafio evaluado 1](/src/cl/praxis/Desafio1/Main.java)
