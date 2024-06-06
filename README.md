@@ -42,6 +42,6 @@
 
 [Link:desafio evaluado 6 ejercicio 1](/src/ejerciciosOpcionales/ejercicioD23)
 
-### Desafio evaluado 7 manejo de excepciones
+### Desafio evaluado 7 manejo de clases abstractas, herencia, poliformismo, ancapsulamiento
 
 [Link:desafio evaluado 7 ejercicio 1](/src/cl/praxis/Desafio7/Menu.java)
