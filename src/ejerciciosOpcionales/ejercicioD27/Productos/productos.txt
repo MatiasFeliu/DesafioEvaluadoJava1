@@ -1,1 +1,3 @@
+Producto{articulo='a', precio='a', descripcion='a', codigo='a', talla='a', marca='a'}
+Producto{articulo='b', precio='b', descripcion='b', codigo='b', talla='b', marca='b'}
 Producto{articulo='c', precio='c', descripcion='c', codigo='c', talla='c', marca='c'}

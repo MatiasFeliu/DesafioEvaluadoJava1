@@ -23,6 +23,8 @@ public class Menu {
                 break;
                 case 3:exportar.exportar(productoServicio.getListaProductos());
                 break;
+                case 4:
+                    System.out.println("Saliendo del programa....");
                 default:
                     System.out.println("Error, ingrese una opcion valida");
             }
